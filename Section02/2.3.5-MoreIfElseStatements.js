@@ -13,4 +13,4 @@ if (num > 100) {
 } else {
   // ? finish the statement with the only three numbers the number could be at this point inthe if statement
   console.log("The number is one of these three numbers: 44, 43, 41.")
-
+};
