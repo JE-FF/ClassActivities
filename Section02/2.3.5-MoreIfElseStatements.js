@@ -7,9 +7,9 @@ if (num > 100) {
 } else if (num <= 40) {
   console.log("The number is less than or equal to 40");
 } else if (num == 42) {
-  console.log("The number is 42")
+  console.log("The number is 42");
 } else if (num >= 45) {
-  console.log("The number is greater than or equal to 45.")
+  console.log("The number is greater than or equal to 45.");
 } else {
   // ? finish the statement with the only three numbers the number could be at this point inthe if statement
   console.log("The number is one of these three numbers: 44, 43, 41.")
