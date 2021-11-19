@@ -11,3 +11,64 @@
     - add padding and margin only on certain sides of some elements */
 /* 4. use a pseudo-class to have at least one element change color when someone hovers over it */
 /* CSS Properties (MDN): https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index */
+
+* {
+    font-family: Arial;
+    background-color: seashell;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h3 {
+    background-color: crimson;
+}
+
+ol {
+    color: red;
+    background-color: orange;
+    border: wheat;
+    border-style: solid;
+}
+
+ul {
+    color: green;
+    background-color: blue;
+    border: white;
+    border-style: dotted;
+}
+
+.lists > li {
+    color: black;
+}
+
+.lists {
+    font-style: italic;
+}
+
+ol.lists {
+    font-weight: bold;
+}
+
+li:hover {
+    color : white;
+    background-color: sienna;
+}
+
+#links {
+    background-color: cyan;
+}
+
+#profilePic {
+    margin-left: 25%;
+    padding: 50px;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    background-color: springgreen;
+}
