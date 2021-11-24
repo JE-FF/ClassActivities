@@ -6,9 +6,7 @@ pop2 = nums.pop();
 shift1 = nums.shift();
 shift2 = nums.shift();
 // use push and unshift to add the variables back to the array in numerical order, 0-6
-nums.unshift(pop2);
-nums.unshift(pop1);
-nums.push(shift2);
-nums.push(shift1);
+nums.unshift(pop1, pop2);
+nums.push(shift1, shift2);
 
 console.log(nums);
